@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A27B906E256F1E7200DF2721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B906D256F1E7200DF2721 /* AppDelegate.swift */; };
+		A27B9070256F1E7200DF2721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B906F256F1E7200DF2721 /* SceneDelegate.swift */; };
+		A27B9072256F1E7200DF2721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B9071256F1E7200DF2721 /* ViewController.swift */; };
+		A27B9075256F1E7200DF2721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B9073256F1E7200DF2721 /* Main.storyboard */; };
+		A27B9077256F1E7600DF2721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27B9076256F1E7600DF2721 /* Assets.xcassets */; };
+		A27B907A256F1E7600DF2721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B9078256F1E7600DF2721 /* LaunchScreen.storyboard */; };
+		A27B9085256F1E7600DF2721 /* buscaNativaElo7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B9084256F1E7600DF2721 /* buscaNativaElo7Tests.swift */; };
+		A27B9090256F1E7600DF2721 /* buscaNativaElo7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B908F256F1E7600DF2721 /* buscaNativaElo7UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27B9081256F1E7600DF2721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27B9062256F1E7200DF2721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27B9069256F1E7200DF2721;
+			remoteInfo = buscaNativaElo7;
+		};
+		A27B908C256F1E7600DF2721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27B9062256F1E7200DF2721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27B9069256F1E7200DF2721;
+			remoteInfo = buscaNativaElo7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A27B906A256F1E7200DF2721 /* buscaNativaElo7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buscaNativaElo7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27B906D256F1E7200DF2721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27B906F256F1E7200DF2721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A27B9071256F1E7200DF2721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A27B9074256F1E7200DF2721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27B9076256F1E7600DF2721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27B9079256F1E7600DF2721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27B907B256F1E7600DF2721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27B9080256F1E7600DF2721 /* buscaNativaElo7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buscaNativaElo7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27B9084256F1E7600DF2721 /* buscaNativaElo7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buscaNativaElo7Tests.swift; sourceTree = "<group>"; };
+		A27B9086256F1E7600DF2721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27B908B256F1E7600DF2721 /* buscaNativaElo7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buscaNativaElo7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27B908F256F1E7600DF2721 /* buscaNativaElo7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buscaNativaElo7UITests.swift; sourceTree = "<group>"; };
+		A27B9091256F1E7600DF2721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27B9067256F1E7200DF2721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B907D256F1E7600DF2721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B9088256F1E7600DF2721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27B9061256F1E7200DF2721 = {
+			isa = PBXGroup;
+			children = (
+				A27B906C256F1E7200DF2721 /* buscaNativaElo7 */,
+				A27B9083256F1E7600DF2721 /* buscaNativaElo7Tests */,
+				A27B908E256F1E7600DF2721 /* buscaNativaElo7UITests */,
+				A27B906B256F1E7200DF2721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27B906B256F1E7200DF2721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27B906A256F1E7200DF2721 /* buscaNativaElo7.app */,
+				A27B9080256F1E7600DF2721 /* buscaNativaElo7Tests.xctest */,
+				A27B908B256F1E7600DF2721 /* buscaNativaElo7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27B906C256F1E7200DF2721 /* buscaNativaElo7 */ = {
+			isa = PBXGroup;
+			children = (
+				A27B906D256F1E7200DF2721 /* AppDelegate.swift */,
+				A27B906F256F1E7200DF2721 /* SceneDelegate.swift */,
+				A27B9071256F1E7200DF2721 /* ViewController.swift */,
+				A27B9073256F1E7200DF2721 /* Main.storyboard */,
+				A27B9076256F1E7600DF2721 /* Assets.xcassets */,
+				A27B9078256F1E7600DF2721 /* LaunchScreen.storyboard */,
+				A27B907B256F1E7600DF2721 /* Info.plist */,
+			);
+			path = buscaNativaElo7;
+			sourceTree = "<group>";
+		};
+		A27B9083256F1E7600DF2721 /* buscaNativaElo7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A27B9084256F1E7600DF2721 /* buscaNativaElo7Tests.swift */,
+				A27B9086256F1E7600DF2721 /* Info.plist */,
+			);
+			path = buscaNativaElo7Tests;
+			sourceTree = "<group>";
+		};
+		A27B908E256F1E7600DF2721 /* buscaNativaElo7UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A27B908F256F1E7600DF2721 /* buscaNativaElo7UITests.swift */,
+				A27B9091256F1E7600DF2721 /* Info.plist */,
+			);
+			path = buscaNativaElo7UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27B9069256F1E7200DF2721 /* buscaNativaElo7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27B9094256F1E7600DF2721 /* Build configuration list for PBXNativeTarget "buscaNativaElo7" */;
+			buildPhases = (
+				A27B9066256F1E7200DF2721 /* Sources */,
+				A27B9067256F1E7200DF2721 /* Frameworks */,
+				A27B9068256F1E7200DF2721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buscaNativaElo7;
+			productName = buscaNativaElo7;
+			productReference = A27B906A256F1E7200DF2721 /* buscaNativaElo7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27B907F256F1E7600DF2721 /* buscaNativaElo7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27B9097256F1E7600DF2721 /* Build configuration list for PBXNativeTarget "buscaNativaElo7Tests" */;
+			buildPhases = (
+				A27B907C256F1E7600DF2721 /* Sources */,
+				A27B907D256F1E7600DF2721 /* Frameworks */,
+				A27B907E256F1E7600DF2721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27B9082256F1E7600DF2721 /* PBXTargetDependency */,
+			);
+			name = buscaNativaElo7Tests;
+			productName = buscaNativaElo7Tests;
+			productReference = A27B9080256F1E7600DF2721 /* buscaNativaElo7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A27B908A256F1E7600DF2721 /* buscaNativaElo7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27B909A256F1E7600DF2721 /* Build configuration list for PBXNativeTarget "buscaNativaElo7UITests" */;
+			buildPhases = (
+				A27B9087256F1E7600DF2721 /* Sources */,
+				A27B9088256F1E7600DF2721 /* Frameworks */,
+				A27B9089256F1E7600DF2721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27B908D256F1E7600DF2721 /* PBXTargetDependency */,
+			);
+			name = buscaNativaElo7UITests;
+			productName = buscaNativaElo7UITests;
+			productReference = A27B908B256F1E7600DF2721 /* buscaNativaElo7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27B9062256F1E7200DF2721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A27B9069256F1E7200DF2721 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A27B907F256F1E7600DF2721 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A27B9069256F1E7200DF2721;
+					};
+					A27B908A256F1E7600DF2721 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A27B9069256F1E7200DF2721;
+					};
+				};
+			};
+			buildConfigurationList = A27B9065256F1E7200DF2721 /* Build configuration list for PBXProject "buscaNativaElo7" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27B9061256F1E7200DF2721;
+			productRefGroup = A27B906B256F1E7200DF2721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27B9069256F1E7200DF2721 /* buscaNativaElo7 */,
+				A27B907F256F1E7600DF2721 /* buscaNativaElo7Tests */,
+				A27B908A256F1E7600DF2721 /* buscaNativaElo7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27B9068256F1E7200DF2721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B907A256F1E7600DF2721 /* LaunchScreen.storyboard in Resources */,
+				A27B9077256F1E7600DF2721 /* Assets.xcassets in Resources */,
+				A27B9075256F1E7200DF2721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B907E256F1E7600DF2721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B9089256F1E7600DF2721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27B9066256F1E7200DF2721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B9072256F1E7200DF2721 /* ViewController.swift in Sources */,
+				A27B906E256F1E7200DF2721 /* AppDelegate.swift in Sources */,
+				A27B9070256F1E7200DF2721 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B907C256F1E7600DF2721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B9085256F1E7600DF2721 /* buscaNativaElo7Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B9087256F1E7600DF2721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B9090256F1E7600DF2721 /* buscaNativaElo7UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27B9082256F1E7600DF2721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27B9069256F1E7200DF2721 /* buscaNativaElo7 */;
+			targetProxy = A27B9081256F1E7600DF2721 /* PBXContainerItemProxy */;
+		};
+		A27B908D256F1E7600DF2721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27B9069256F1E7200DF2721 /* buscaNativaElo7 */;
+			targetProxy = A27B908C256F1E7600DF2721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27B9073256F1E7200DF2721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27B9074256F1E7200DF2721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27B9078256F1E7600DF2721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27B9079256F1E7600DF2721 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27B9092256F1E7600DF2721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27B9093256F1E7600DF2721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27B9095256F1E7600DF2721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = buscaNativaElo7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Juliane.buscaNativaElo7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27B9096256F1E7600DF2721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = buscaNativaElo7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Juliane.buscaNativaElo7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A27B9098256F1E7600DF2721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = buscaNativaElo7Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Juliane.buscaNativaElo7Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buscaNativaElo7.app/buscaNativaElo7";
+			};
+			name = Debug;
+		};
+		A27B9099256F1E7600DF2721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = buscaNativaElo7Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Juliane.buscaNativaElo7Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buscaNativaElo7.app/buscaNativaElo7";
+			};
+			name = Release;
+		};
+		A27B909B256F1E7600DF2721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = buscaNativaElo7UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Juliane.buscaNativaElo7UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = buscaNativaElo7;
+			};
+			name = Debug;
+		};
+		A27B909C256F1E7600DF2721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = buscaNativaElo7UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Juliane.buscaNativaElo7UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = buscaNativaElo7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27B9065256F1E7200DF2721 /* Build configuration list for PBXProject "buscaNativaElo7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B9092256F1E7600DF2721 /* Debug */,
+				A27B9093256F1E7600DF2721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27B9094256F1E7600DF2721 /* Build configuration list for PBXNativeTarget "buscaNativaElo7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B9095256F1E7600DF2721 /* Debug */,
+				A27B9096256F1E7600DF2721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27B9097256F1E7600DF2721 /* Build configuration list for PBXNativeTarget "buscaNativaElo7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B9098256F1E7600DF2721 /* Debug */,
+				A27B9099256F1E7600DF2721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27B909A256F1E7600DF2721 /* Build configuration list for PBXNativeTarget "buscaNativaElo7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B909B256F1E7600DF2721 /* Debug */,
+				A27B909C256F1E7600DF2721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27B9062256F1E7200DF2721 /* Project object */;
+}
