@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		A27B907A256F1E7600DF2721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B9078256F1E7600DF2721 /* LaunchScreen.storyboard */; };
 		A27B9085256F1E7600DF2721 /* buscaNativaElo7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B9084256F1E7600DF2721 /* buscaNativaElo7Tests.swift */; };
 		A27B9090256F1E7600DF2721 /* buscaNativaElo7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B908F256F1E7600DF2721 /* buscaNativaElo7UITests.swift */; };
+		A2BEE0A92582DCE100410DEE /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEE0A82582DCE100410DEE /* Products.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		A27B908B256F1E7600DF2721 /* buscaNativaElo7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buscaNativaElo7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27B908F256F1E7600DF2721 /* buscaNativaElo7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buscaNativaElo7UITests.swift; sourceTree = "<group>"; };
 		A27B9091256F1E7600DF2721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BEE0A82582DCE100410DEE /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		E0810B7E917848BCD08E43A3 /* Pods_buscaNativaElo7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buscaNativaElo7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,7 +97,6 @@
 				79C3AFF235C48D192F8A0831 /* Pods-buscaNativaElo7.debug.xcconfig */,
 				4FCFE279C5CDC4EF56B397B2 /* Pods-buscaNativaElo7.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,6 +132,7 @@
 				A27B9076256F1E7600DF2721 /* Assets.xcassets */,
 				A27B9078256F1E7600DF2721 /* LaunchScreen.storyboard */,
 				A27B907B256F1E7600DF2721 /* Info.plist */,
+				A2BEE0A82582DCE100410DEE /* Products.swift */,
 			);
 			path = buscaNativaElo7;
 			sourceTree = "<group>";
@@ -328,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A27B9072256F1E7200DF2721 /* ViewController.swift in Sources */,
+				A2BEE0A92582DCE100410DEE /* Products.swift in Sources */,
 				A27B906E256F1E7200DF2721 /* AppDelegate.swift in Sources */,
 				A27B9070256F1E7200DF2721 /* SceneDelegate.swift in Sources */,
 			);
