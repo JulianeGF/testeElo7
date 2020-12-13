@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3BF146CECE97E431F00E7B6F /* Pods_buscaNativaElo7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0810B7E917848BCD08E43A3 /* Pods_buscaNativaElo7.framework */; };
+		A26343422585744A002A0C0E /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26343412585744A002A0C0E /* ProductTableViewCell.swift */; };
 		A27B906E256F1E7200DF2721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B906D256F1E7200DF2721 /* AppDelegate.swift */; };
 		A27B9070256F1E7200DF2721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B906F256F1E7200DF2721 /* SceneDelegate.swift */; };
 		A27B9072256F1E7200DF2721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B9071256F1E7200DF2721 /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		A27B907A256F1E7600DF2721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B9078256F1E7600DF2721 /* LaunchScreen.storyboard */; };
 		A27B9085256F1E7600DF2721 /* buscaNativaElo7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B9084256F1E7600DF2721 /* buscaNativaElo7Tests.swift */; };
 		A27B9090256F1E7600DF2721 /* buscaNativaElo7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B908F256F1E7600DF2721 /* buscaNativaElo7UITests.swift */; };
-		A2BEE0A92582DCE100410DEE /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEE0A82582DCE100410DEE /* Products.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		4FCFE279C5CDC4EF56B397B2 /* Pods-buscaNativaElo7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buscaNativaElo7.release.xcconfig"; path = "Target Support Files/Pods-buscaNativaElo7/Pods-buscaNativaElo7.release.xcconfig"; sourceTree = "<group>"; };
 		79C3AFF235C48D192F8A0831 /* Pods-buscaNativaElo7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buscaNativaElo7.debug.xcconfig"; path = "Target Support Files/Pods-buscaNativaElo7/Pods-buscaNativaElo7.debug.xcconfig"; sourceTree = "<group>"; };
+		A26343412585744A002A0C0E /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		A27B906A256F1E7200DF2721 /* buscaNativaElo7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buscaNativaElo7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27B906D256F1E7200DF2721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A27B906F256F1E7200DF2721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		A27B908B256F1E7600DF2721 /* buscaNativaElo7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buscaNativaElo7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27B908F256F1E7600DF2721 /* buscaNativaElo7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buscaNativaElo7UITests.swift; sourceTree = "<group>"; };
 		A27B9091256F1E7600DF2721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2BEE0A82582DCE100410DEE /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		E0810B7E917848BCD08E43A3 /* Pods_buscaNativaElo7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buscaNativaElo7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -128,11 +128,11 @@
 				A27B906D256F1E7200DF2721 /* AppDelegate.swift */,
 				A27B906F256F1E7200DF2721 /* SceneDelegate.swift */,
 				A27B9071256F1E7200DF2721 /* ViewController.swift */,
+				A26343412585744A002A0C0E /* ProductTableViewCell.swift */,
 				A27B9073256F1E7200DF2721 /* Main.storyboard */,
-				A27B9076256F1E7600DF2721 /* Assets.xcassets */,
 				A27B9078256F1E7600DF2721 /* LaunchScreen.storyboard */,
 				A27B907B256F1E7600DF2721 /* Info.plist */,
-				A2BEE0A82582DCE100410DEE /* Products.swift */,
+				A27B9076256F1E7600DF2721 /* Assets.xcassets */,
 			);
 			path = buscaNativaElo7;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A27B9072256F1E7200DF2721 /* ViewController.swift in Sources */,
-				A2BEE0A92582DCE100410DEE /* Products.swift in Sources */,
+				A26343422585744A002A0C0E /* ProductTableViewCell.swift in Sources */,
 				A27B906E256F1E7200DF2721 /* AppDelegate.swift in Sources */,
 				A27B9070256F1E7200DF2721 /* SceneDelegate.swift in Sources */,
 			);
